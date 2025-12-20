@@ -83,19 +83,31 @@ PyPDF / Docx2Txt / BeautifulSoup – Document loading
 ## ⚙️ Installation & Setup
 
 1️⃣ Create and activate environment (recommended)
+
 conda create -n ga03 python=3.10 -y
+
 conda activate ga03
 
 2️⃣ Install dependencies
+
 pip install torch==2.1.2 --index-url https://download.pytorch.org/whl/cpu
+
 pip install transformers==4.36.2 accelerate==0.25.0
+
 pip install huggingface-hub==0.19.4
+
 pip install langchain==0.1.16
+
 pip install langchain-community==0.0.36
+
 pip install langchain-text-splitters==0.0.1
+
 pip install faiss-cpu==1.7.4
+
 pip install sentence-transformers==2.2.2
+
 pip install streamlit==1.31.1
+
 pip install pypdf docx2txt beautifulsoup4 requests
 
 ## ▶️ Running the Application
