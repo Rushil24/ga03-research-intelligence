@@ -1,6 +1,5 @@
 # ============================================================
 # GA03 – Research Paper Management & Analysis Intelligence
-# FINAL FIXED, HIGH-QUALITY, IEEE-AWARE VERSION
 # ============================================================
 
 import os
@@ -103,7 +102,7 @@ def load_document(uploaded_file=None, url=None) -> str:
     return clean_text(full_text)
 
 # ============================================================
-# LLM (CORRECT PIPELINE)
+# LLM
 # ============================================================
 
 @st.cache_resource
